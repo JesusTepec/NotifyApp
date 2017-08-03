@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Notificaciones</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_incendios">INCENDIOS</string>
+    <string name="btn_sismos">SISMOS</string>
+    <string name="btn_clima">CLIMA</string>
+    <string name="title_activity_sismos">SismosActivity</string>
+</resources>

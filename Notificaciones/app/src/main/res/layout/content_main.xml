@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.devtepec.notificaciones.activities.Main"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/campo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="==Menú de opciones=="
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:id="@+id/btn_sismos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_sismos"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/campo"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_incendios"
+        tools:layout_editor_absoluteY="186dp"
+        tools:layout_editor_absoluteX="144dp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/btn_sismos"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_clima"
+        tools:layout_editor_absoluteY="263dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

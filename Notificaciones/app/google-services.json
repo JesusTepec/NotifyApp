@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "607940238391",
+    "firebase_url": "https://notificaciones-e3185.firebaseio.com",
+    "project_id": "notificaciones-e3185",
+    "storage_bucket": "notificaciones-e3185.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607940238391:android:288454ae7a3aec4f",
+        "android_client_info": {
+          "package_name": "com.devtepec.notificaciones"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607940238391-smjkhjvv1cih9mpogvbg3e4trsg3ub4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyfW8TpLUvJb7NT_nboCGGos8NXCgK8y4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
